@@ -20,8 +20,14 @@ function destructivelyPrependCat(name){
   return cats.unshift("Bob")
 }
 
-// remove last name
+// remove last name destructively
 function destructivelyRemoveLastCat(){
   beforeEach();
   return cats.pop();
+}
+
+// remove first name destructively
+function destructivelyRemoveFirstCat(){
+  beforeEach();
+  return cats.shift();
 }
