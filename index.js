@@ -37,3 +37,9 @@ function appendCat(name){
   beforeEach();
   return [...cats, "Broom"]
 }
+
+// return new array with added name at the start
+function prependCat(name){
+  beforeEach();
+  return ["Arnold",...cats]
+}
