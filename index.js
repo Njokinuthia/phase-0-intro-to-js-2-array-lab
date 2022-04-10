@@ -43,3 +43,8 @@ function prependCat(name){
   beforeEach();
   return ["Arnold",...cats]
 }
+// return new array with last cat removed
+function removeLastCat(){
+  beforeEach();
+  return cats.slice(0,-1)
+}
