@@ -31,3 +31,9 @@ function destructivelyRemoveFirstCat(){
   beforeEach();
   return cats.shift();
 }
+
+// return new array with added name at the end
+function appendCat(name){
+  beforeEach();
+  return [...cats, "Broom"]
+}
