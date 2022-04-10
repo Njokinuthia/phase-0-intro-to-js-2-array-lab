@@ -48,3 +48,8 @@ function removeLastCat(){
   beforeEach();
   return cats.slice(0,-1)
 }
+// return new array with first cat removed
+function removeFirstCat(){
+  beforeEach();
+  return cats.slice(1)
+}
